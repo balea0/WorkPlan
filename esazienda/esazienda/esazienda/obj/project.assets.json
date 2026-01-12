@@ -772,11 +772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buizza.22195\\Downloads\\esazienda\\esazienda\\esazienda\\esazienda.csproj",
+      "projectUniqueName": "C:\\Users\\buizza.22195\\Documents\\GitHub\\WorkPlan\\esazienda\\esazienda\\esazienda\\esazienda.csproj",
       "projectName": "esazienda",
-      "projectPath": "C:\\Users\\buizza.22195\\Downloads\\esazienda\\esazienda\\esazienda\\esazienda.csproj",
+      "projectPath": "C:\\Users\\buizza.22195\\Documents\\GitHub\\WorkPlan\\esazienda\\esazienda\\esazienda\\esazienda.csproj",
       "packagesPath": "C:\\Users\\buizza.22195\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buizza.22195\\Downloads\\esazienda\\esazienda\\esazienda\\obj\\",
+      "outputPath": "C:\\Users\\buizza.22195\\Documents\\GitHub\\WorkPlan\\esazienda\\esazienda\\esazienda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

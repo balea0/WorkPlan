@@ -41,10 +41,7 @@ namespace esazienda
                 this.Data_Creazione = Data_Creazione;
 
                 
-                if (ID_Dipendente != null)
-                {
-                    ID_Dipendente.AggiungiPianificazione(this);
-                }
+               
             }
 
             public int ID_Pianificazione
@@ -64,7 +61,7 @@ namespace esazienda
                         throw new Exception("Il dipendente non può essere nullo");
                     }
 
-                    
+
                     if (_ID_Dipendente != null)
                     {
                         _ID_Dipendente.Pianificazioni.Remove(this);
@@ -72,8 +69,7 @@ namespace esazienda
 
                     _ID_Dipendente = value;
 
-                   
-                    value.AggiungiPianificazione(this);
+
                 }
             }
 

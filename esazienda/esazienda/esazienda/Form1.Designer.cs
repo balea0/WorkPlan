@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             button1 = new Button();
@@ -60,13 +58,11 @@
             guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
             guna2MessageDialog2 = new Guna.UI2.WinForms.Guna2MessageDialog();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            guna2GradientTileButton1 = new Guna.UI2.WinForms.Guna2GradientTileButton();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            tabPage4.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -265,7 +261,6 @@
             // 
             // tabPage4
             // 
-            tabPage4.Controls.Add(guna2GradientTileButton1);
             tabPage4.Location = new Point(4, 24);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
@@ -298,25 +293,6 @@
             guna2MessageDialog2.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
             guna2MessageDialog2.Text = null;
             // 
-            // guna2GradientTileButton1
-            // 
-            guna2GradientTileButton1.CustomizableEdges = customizableEdges1;
-            guna2GradientTileButton1.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientTileButton1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientTileButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientTileButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientTileButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientTileButton1.FillColor = Color.FromArgb(255, 192, 255);
-            guna2GradientTileButton1.FillColor2 = Color.DarkViolet;
-            guna2GradientTileButton1.Font = new Font("Segoe UI", 9F);
-            guna2GradientTileButton1.ForeColor = Color.White;
-            guna2GradientTileButton1.Location = new Point(254, 200);
-            guna2GradientTileButton1.Name = "guna2GradientTileButton1";
-            guna2GradientTileButton1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2GradientTileButton1.Size = new Size(173, 57);
-            guna2GradientTileButton1.TabIndex = 0;
-            guna2GradientTileButton1.Text = "guna2GradientTileButton1";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -333,7 +309,6 @@
             tabPage2.PerformLayout();
             tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            tabPage4.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -367,7 +342,6 @@
         private Guna.UI2.WinForms.Guna2NotificationPaint guna2NotificationPaint2;
         private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
         private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog2;
-        private Guna.UI2.WinForms.Guna2GradientTileButton guna2GradientTileButton1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }
