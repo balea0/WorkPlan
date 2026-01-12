@@ -19,7 +19,7 @@ namespace esazienda
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(textBox1.Text, out int ID_turno));
+            if (!int.TryParse(textBox1.Text, out int ID_turno)) ;
             string Nome_turno = textBox2.Text;
             string descrizione = textBox3.Text;
             DateTime Ora_inizio = dateTimePicker1.Value;
@@ -173,6 +173,11 @@ namespace esazienda
             //    // Vai alla tabPage3
             //    tabControl1.SelectedTab = tabPage2;
             //}
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

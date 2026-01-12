@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             button1 = new Button();
@@ -49,11 +52,21 @@
             tabPage3 = new TabPage();
             button4 = new Button();
             dataGridView1 = new DataGridView();
+            tabPage4 = new TabPage();
+            guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
+            guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
+            guna2NotificationPaint1 = new Guna.UI2.WinForms.Guna2NotificationPaint(components);
+            guna2NotificationPaint2 = new Guna.UI2.WinForms.Guna2NotificationPaint(components);
+            guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
+            guna2MessageDialog2 = new Guna.UI2.WinForms.Guna2MessageDialog();
+            guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            guna2GradientTileButton1 = new Guna.UI2.WinForms.Guna2GradientTileButton();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tabPage4.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -61,6 +74,7 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
             tabControl1.Location = new Point(10, 10);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -249,12 +263,67 @@
             dataGridView1.CellClick += dataGridView1_CellClick;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
+            // tabPage4
+            // 
+            tabPage4.Controls.Add(guna2GradientTileButton1);
+            tabPage4.Location = new Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new Padding(3);
+            tabPage4.Size = new Size(770, 400);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "tabPage4";
+            tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // guna2BorderlessForm1
+            // 
+            guna2BorderlessForm1.ContainerControl = this;
+            guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
+            guna2BorderlessForm1.TransparentWhileDrag = true;
+            // 
+            // guna2MessageDialog1
+            // 
+            guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            guna2MessageDialog1.Caption = null;
+            guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
+            guna2MessageDialog1.Parent = null;
+            guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
+            guna2MessageDialog1.Text = null;
+            // 
+            // guna2MessageDialog2
+            // 
+            guna2MessageDialog2.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            guna2MessageDialog2.Caption = null;
+            guna2MessageDialog2.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
+            guna2MessageDialog2.Parent = null;
+            guna2MessageDialog2.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
+            guna2MessageDialog2.Text = null;
+            // 
+            // guna2GradientTileButton1
+            // 
+            guna2GradientTileButton1.CustomizableEdges = customizableEdges1;
+            guna2GradientTileButton1.DisabledState.BorderColor = Color.DarkGray;
+            guna2GradientTileButton1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2GradientTileButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2GradientTileButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            guna2GradientTileButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2GradientTileButton1.FillColor = Color.FromArgb(255, 192, 255);
+            guna2GradientTileButton1.FillColor2 = Color.DarkViolet;
+            guna2GradientTileButton1.Font = new Font("Segoe UI", 9F);
+            guna2GradientTileButton1.ForeColor = Color.White;
+            guna2GradientTileButton1.Location = new Point(254, 200);
+            guna2GradientTileButton1.Name = "guna2GradientTileButton1";
+            guna2GradientTileButton1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2GradientTileButton1.Size = new Size(173, 57);
+            guna2GradientTileButton1.TabIndex = 0;
+            guna2GradientTileButton1.Text = "guna2GradientTileButton1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(tabControl1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             Text = "Form1";
             tabControl1.ResumeLayout(false);
@@ -264,6 +333,7 @@
             tabPage2.PerformLayout();
             tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            tabPage4.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -290,5 +360,14 @@
         private TabPage tabPage3;
         private Button button4;
         private DataGridView dataGridView1;
+        private TabPage tabPage4;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
+        private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Guna.UI2.WinForms.Guna2NotificationPaint guna2NotificationPaint1;
+        private Guna.UI2.WinForms.Guna2NotificationPaint guna2NotificationPaint2;
+        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
+        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog2;
+        private Guna.UI2.WinForms.Guna2GradientTileButton guna2GradientTileButton1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

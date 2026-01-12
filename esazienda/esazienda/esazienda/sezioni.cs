@@ -11,8 +11,8 @@ namespace esazienda
         public class Pianificazione_Turni
         {
             private int _ID_Pianificazione;
-            private Dipendenti _ID_Dipendente;  // OGGETTO DIPENDENTI
-            private Turni _ID_Turno;            // OGGETTO TURNI
+            private Dipendenti _ID_Dipendente;  
+            private Turni _ID_Turno;            
             private DateTime _Data_Turno;
             private decimal _Ore_Pianificate;
             private string _Note;
@@ -40,7 +40,7 @@ namespace esazienda
                 this.Stato = Stato;
                 this.Data_Creazione = Data_Creazione;
 
-                // Aggiunge questa pianificazione al dipendente
+                
                 if (ID_Dipendente != null)
                 {
                     ID_Dipendente.AggiungiPianificazione(this);
@@ -52,7 +52,7 @@ namespace esazienda
                 get => _ID_Pianificazione;
             }
 
-            // PROPRIETÀ DIPENDENTI (OGGETTO)
+            
             public Dipendenti ID_Dipendente
             {
                 get => _ID_Dipendente;
@@ -64,7 +64,7 @@ namespace esazienda
                         throw new Exception("Il dipendente non può essere nullo");
                     }
 
-                    // Rimuove dalla vecchia lista del dipendente (se presente)
+                    
                     if (_ID_Dipendente != null)
                     {
                         _ID_Dipendente.Pianificazioni.Remove(this);
@@ -72,12 +72,12 @@ namespace esazienda
 
                     _ID_Dipendente = value;
 
-                    // Aggiunge alla nuova lista del dipendente
+                   
                     value.AggiungiPianificazione(this);
                 }
             }
 
-            // PROPRIETÀ TURNI (OGGETTO)
+            
             public Turni ID_Turno
             {
                 get => _ID_Turno;
@@ -193,7 +193,7 @@ namespace esazienda
                 }
             }
 
-            // Metodo per calcolare le ore effettive
+           
             public decimal CalcolaOreEffettive()
             {
                 if (_ID_Turno == null) return _Ore_Pianificate;
@@ -204,13 +204,13 @@ namespace esazienda
                 return Math.Min(oreTurno, _Ore_Pianificate);
             }
 
-            // Metodo per ottenere informazioni del dipendente
+            
             public string GetInfoDipendente()
             {
                 return _ID_Dipendente?.GetNomeCompleto() ?? "Dipendente non assegnato";
             }
 
-            // Metodo per ottenere informazioni del turno
+            
             public string GetInfoTurno()
             {
                 if (_ID_Turno == null) return "Turno non assegnato";
@@ -218,7 +218,7 @@ namespace esazienda
                 return $"{_ID_Turno.Nome_Turno} ({_ID_Turno.Ora_Inizio:HH:mm} - {_ID_Turno.Ora_Fine:HH:mm})";
             }
 
-            // Metodo per verificare se la pianificazione è valida
+            
             public bool IsValida()
             {
                 return _ID_Dipendente != null &&
@@ -229,28 +229,8 @@ namespace esazienda
                        (_ID_Dipendente.Attivo || _Stato == "Completato");
             }
 
-            // Metodo per verificare se il dipendente è disponibile
-            public bool IsDipendenteDisponibile()
-            {
-                if (_ID_Dipendente == null) return false;
-
-                return _ID_Dipendente.IsDisponibilePerData(_Data_Turno);
-            }
-
-            // Metodo per ottenere informazioni complete
-            public string GetInfoCompleta()
-            {
-                return $"PIANIFICAZIONE #{_ID_Pianificazione}\n" +
-                       $"========================\n" +
-                       $"Dipendente: {GetInfoDipendente()}\n" +
-                       $"Turno: {GetInfoTurno()}\n" +
-                       $"Data: {_Data_Turno:dd/MM/yyyy}\n" +
-                       $"Ore Pianificate: {_Ore_Pianificate}\n" +
-                       $"Ore Effettive: {CalcolaOreEffettive()}\n" +
-                       $"Stato: {_Stato}\n" +
-                       $"Note: {(_Note.Length > 50 ? _Note.Substring(0, 50) + "..." : _Note)}\n" +
-                       $"Data Creazione: {_Data_Creazione:dd/MM/yyyy HH:mm}";
-            }
+          
+            
 
             public override string ToString()
             {
@@ -261,7 +241,7 @@ namespace esazienda
             }
         }
 
-        // CLASSE DIPENDENTI
+        
         public class Dipendenti
         {
             private int _ID_Dipendente;
@@ -271,8 +251,8 @@ namespace esazienda
             private string _Email;
             private string _Telefono;
             private DateTime? _Data_Assunzione;
-            private Reparti _ID_Reparto;  // OGGETTO REPARTI
-            private Ruoli _ID_Ruolo;      // OGGETTO RUOLI
+            private Reparti _ID_Reparto;  
+            private Ruoli _ID_Ruolo;      
             private bool _Attivo;
 
             private List<Pianificazione_Turni> _Pianificazioni;
@@ -461,7 +441,7 @@ namespace esazienda
                 }
             }
 
-            // PROPRIETÀ REPARTO (OGGETTO)
+            
             public Reparti ID_Reparto
             {
                 get => _ID_Reparto;
@@ -472,7 +452,7 @@ namespace esazienda
                 }
             }
 
-            // PROPRIETÀ RUOLO (OGGETTO)
+           
             public Ruoli ID_Ruolo
             {
                 get => _ID_Ruolo;
@@ -494,15 +474,7 @@ namespace esazienda
                 get => _Pianificazioni;
             }
 
-            public void AggiungiPianificazione(Pianificazione_Turni pianificazione)
-            {
-                if (pianificazione == null) return;
-
-                if (!_Pianificazioni.Contains(pianificazione))
-                {
-                    _Pianificazioni.Add(pianificazione);
-                }
-            }
+            
 
             public string GetNomeCompleto()
             {
@@ -540,20 +512,7 @@ namespace esazienda
                     .Sum(p => p.CalcolaOreEffettive());
             }
 
-            public string GetInfoDipendente()
-            {
-                return $"DIPENDENTE #{_ID_Dipendente}\n" +
-                       $"------------------------\n" +
-                       $"Matricola: {_Matricola}\n" +
-                       $"Nome: {GetNomeCompleto()}\n" +
-                       $"Reparto: {GetNomeReparto()}\n" +
-                       $"Ruolo: {GetNomeRuolo()}\n" +
-                       $"Email: {_Email ?? "N/D"}\n" +
-                       $"Telefono: {_Telefono ?? "N/D"}\n" +
-                       $"Data Assunzione: {(_Data_Assunzione.HasValue ? _Data_Assunzione.Value.ToString("dd/MM/yyyy") : "N/D")}\n" +
-                       $"Stato: {(_Attivo ? "Attivo" : "Non attivo")}\n" +
-                       $"Pianificazioni: {_Pianificazioni.Count}";
-            }
+           
 
             public override string ToString()
             {
@@ -682,7 +641,7 @@ namespace esazienda
                         throw new Exception("Il colore non può essere vuoto");
                     }
 
-                    // Validazione formato colore (esadecimale o nome)
+                    
                     if (!System.Text.RegularExpressions.Regex.IsMatch(value, "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$") &&
                         !(new[] { "rosso", "verde", "blu", "giallo", "arancione", "viola" }).Contains(value.ToLower()))
                     {
@@ -693,7 +652,7 @@ namespace esazienda
                 }
             }
 
-            // Metodo per calcolare la durata del turno
+           
             public TimeSpan CalcolaDurata()
             {
                 return _Ora_Fine - _Ora_Inizio;

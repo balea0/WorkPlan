@@ -50,7 +50,6 @@ C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-w
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\MySql.Data.dll
-C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\ZstdSharp.dll
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
@@ -60,3 +59,8 @@ C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-w
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\obj\Debug\net8.0-windows\esazienda.csproj.Up2Date
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\obj\Debug\net8.0-windows\esazienda.genruntimeconfig.cache
 C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\obj\Debug\net8.0-windows\ref\esazienda.dll
+C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\buizza.22195\Downloads\esazienda\esazienda\esazienda\obj\Debug\net8.0-windows\esazienda.Properties.Resources.resources
