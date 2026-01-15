@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "40SoBEuDTJI=",
+  "dgSpecHash": "qMBWpJdGpdo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\balea.22059\\Desktop\\esazienda_final_fix\\esazienda\\esazienda.csproj",
+  "projectFilePath": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\WORK\\esazienda\\esazienda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\balea.22059\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\balea.22059\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",

@@ -6,13 +6,7 @@ using Guna.UI2.WinForms;
 
 namespace esazienda
 {
-    /// <summary>
-    ///     La finestra principale dell'applicazione. Questa classe gestisce
-    ///     la logica delle operazioni CRUD per tutte le entità (Dipendenti,
-    ///     Ruoli, Reparti, Turni e Pianificazioni). La parte grafica è
-    ///     definita nel file Form1.Designer.cs tramite i controlli Guna
-    ///     UI2. Tutte le query sono parametrizzate per evitare injection.
-    /// </summary>
+    
     public partial class Form1 : Form
     {
         private readonly string connectionString;
@@ -20,31 +14,20 @@ namespace esazienda
         public Form1()
         {
             InitializeComponent();
-            // Configura la stringa di connessione. È consigliato spostarla
-            // in un file di configurazione o variabile d'ambiente.
             connectionString = "Server=192.168.103.51;Port=3306;Uid=4IB;Pwd=4ibroot;DataBase=25_26_4IB_GRUPPO_B";
 
-            // Deferisce il caricamento dei dati e delle combo al momento in cui il form
-            // viene completamente caricato (evento Load). In questo modo si evita
-            // l'uso di controlli non ancora inizializzati, prevenendo eccezioni
-            // NullReferenceException.
+           
             this.Load += Form1_Load;
         }
 
-        /// <summary>
-        /// Gestisce l'evento di caricamento della form. Qui vengono
-        /// popolati i combo box e caricati i dati nelle griglie, una volta
-        /// che tutti i controlli sono stati creati dal designer.
-        /// </summary>
+       
         private void Form1_Load(object? sender, EventArgs e)
         {
-            // Popola i combo box dipendenti, ruoli, reparti e turni.
             LoadRepartiCombo();
             LoadRuoliCombo();
             LoadTurniCombo();
             LoadDipendentiCombo();
 
-            // Carica i dati iniziali delle tabelle.
             LoadDipendentiGrid();
             LoadRuoliGrid();
             LoadRepartiGrid();
@@ -52,7 +35,7 @@ namespace esazienda
             LoadPianificazioniGrid();
         }
 
-        #region Load combos
+        #region  Configurazione Combobox SQL
 
         private void LoadRepartiCombo()
         {
@@ -145,7 +128,7 @@ namespace esazienda
 
         #endregion
 
-        #region Load grids
+        #region griglia
 
         private void LoadDipendentiGrid()
         {
@@ -242,7 +225,7 @@ namespace esazienda
 
         #endregion
 
-        #region Event handlers: Dipendenti
+        #region Codice Dipendenti
 
         private void DipInsertButton_Click(object? sender, EventArgs e)
         {
@@ -409,7 +392,7 @@ namespace esazienda
 
         #endregion
 
-        #region Event handlers: Ruoli
+        #region Codice Ruoli
 
         private void RuoloInsertButton_Click(object? sender, EventArgs e)
         {
@@ -494,7 +477,7 @@ namespace esazienda
 
         #endregion
 
-        #region Event handlers: Reparti
+        #region Codice Reparti
 
         private void RepInsertButton_Click(object? sender, EventArgs e)
         {
@@ -589,7 +572,7 @@ namespace esazienda
 
         #endregion
 
-        #region Event handlers: Turni
+        #region Codice Turni
 
         private void TurnoInsertButton_Click(object? sender, EventArgs e)
         {
@@ -685,7 +668,7 @@ namespace esazienda
 
         #endregion
 
-        #region Event handlers: Pianificazioni
+        #region Codice Pianificazioni
 
         private void PianInsertButton_Click(object? sender, EventArgs e)
         {
