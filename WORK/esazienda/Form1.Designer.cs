@@ -161,7 +161,7 @@ namespace esazienda
             // 
             tabRuoli.Location = new Point(184, 4);
             tabRuoli.Name = "tabRuoli";
-            tabRuoli.Size = new Size(312, 292);
+            tabRuoli.Size = new Size(912, 592);
             tabRuoli.TabIndex = 1;
             tabRuoli.Text = "Ruoli";
             // 
@@ -169,7 +169,7 @@ namespace esazienda
             // 
             tabReparti.Location = new Point(184, 4);
             tabReparti.Name = "tabReparti";
-            tabReparti.Size = new Size(312, 292);
+            tabReparti.Size = new Size(912, 592);
             tabReparti.TabIndex = 2;
             tabReparti.Text = "Reparti";
             // 
@@ -177,7 +177,7 @@ namespace esazienda
             // 
             tabTurni.Location = new Point(184, 4);
             tabTurni.Name = "tabTurni";
-            tabTurni.Size = new Size(312, 292);
+            tabTurni.Size = new Size(912, 592);
             tabTurni.TabIndex = 3;
             tabTurni.Text = "Turni";
             // 
@@ -185,7 +185,7 @@ namespace esazienda
             // 
             tabPian.Location = new Point(184, 4);
             tabPian.Name = "tabPian";
-            tabPian.Size = new Size(312, 292);
+            tabPian.Size = new Size(912, 592);
             tabPian.TabIndex = 4;
             tabPian.Text = "Pianificazioni";
             // 
