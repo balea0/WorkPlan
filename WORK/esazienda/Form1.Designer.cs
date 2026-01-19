@@ -106,43 +106,100 @@ namespace esazienda
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new Container();
-
-            // Initialize TabControl
-            this.tabControl = new Guna2TabControl();
-            this.tabControl.Dock = DockStyle.Fill;
-            this.tabControl.TabButtonIdleState.FillColor = Color.White;
-            this.tabControl.TabButtonIdleState.ForeColor = Color.Black;
-            this.tabControl.TabButtonHoverState.FillColor = Color.LightGray;
-            this.tabControl.TabButtonHoverState.ForeColor = Color.Black;
-
-            // Initialize TabPages
-            this.tabDipendenti = new TabPage("Dipendenti");
-            this.tabRuoli = new TabPage("Ruoli");
-            this.tabReparti = new TabPage("Reparti");
-            this.tabTurni = new TabPage("Turni");
-            this.tabPian = new TabPage("Pianificazioni");
-
-            // Build each tab
-            BuildDipendentiTab();
-            BuildRuoliTab();
-            BuildRepartiTab();
-            BuildTurniTab();
-            BuildPianificazioniTab();
-
-            // Add tabs to TabControl
-            this.tabControl.TabPages.Add(this.tabDipendenti);
-            this.tabControl.TabPages.Add(this.tabRuoli);
-            this.tabControl.TabPages.Add(this.tabReparti);
-            this.tabControl.TabPages.Add(this.tabTurni);
-            this.tabControl.TabPages.Add(this.tabPian);
-
-            // Form settings
-            this.AutoScaleDimensions = new SizeF(7F, 15F);
-            this.AutoScaleMode = AutoScaleMode.Font;
-            this.ClientSize = new Size(1100, 600);
-            this.Controls.Add(this.tabControl);
-            this.Text = "Gestione aziendale";
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(Form1));
+            tabControl = new Guna2TabControl();
+            tabDipendenti = new TabPage();
+            tabRuoli = new TabPage();
+            tabReparti = new TabPage();
+            tabTurni = new TabPage();
+            tabPian = new TabPage();
+            tabControl.SuspendLayout();
+            SuspendLayout();
+            // 
+            // tabControl
+            // 
+            tabControl.Alignment = TabAlignment.Left;
+            tabControl.Controls.Add(tabDipendenti);
+            tabControl.Controls.Add(tabRuoli);
+            tabControl.Controls.Add(tabReparti);
+            tabControl.Controls.Add(tabTurni);
+            tabControl.Controls.Add(tabPian);
+            tabControl.Dock = DockStyle.Fill;
+            tabControl.ItemSize = new Size(180, 40);
+            tabControl.Location = new Point(0, 0);
+            tabControl.Name = "tabControl";
+            tabControl.SelectedIndex = 0;
+            tabControl.Size = new Size(1100, 600);
+            tabControl.TabButtonHoverState.BorderColor = Color.Empty;
+            tabControl.TabButtonHoverState.FillColor = Color.LightGray;
+            tabControl.TabButtonHoverState.Font = new Font("Segoe UI Semibold", 10F);
+            tabControl.TabButtonHoverState.ForeColor = Color.Black;
+            tabControl.TabButtonHoverState.InnerColor = Color.FromArgb(40, 52, 70);
+            tabControl.TabButtonIdleState.BorderColor = Color.Empty;
+            tabControl.TabButtonIdleState.FillColor = Color.White;
+            tabControl.TabButtonIdleState.Font = new Font("Segoe UI Semibold", 10F);
+            tabControl.TabButtonIdleState.ForeColor = Color.Black;
+            tabControl.TabButtonIdleState.InnerColor = Color.FromArgb(33, 42, 57);
+            tabControl.TabButtonSelectedState.BorderColor = Color.Empty;
+            tabControl.TabButtonSelectedState.FillColor = Color.FromArgb(29, 37, 49);
+            tabControl.TabButtonSelectedState.Font = new Font("Segoe UI Semibold", 10F);
+            tabControl.TabButtonSelectedState.ForeColor = Color.White;
+            tabControl.TabButtonSelectedState.InnerColor = Color.FromArgb(76, 132, 255);
+            tabControl.TabButtonSize = new Size(180, 40);
+            tabControl.TabIndex = 0;
+            tabControl.TabMenuBackColor = Color.FromArgb(33, 42, 57);
+            // 
+            // tabDipendenti
+            // 
+            tabDipendenti.Location = new Point(184, 4);
+            tabDipendenti.Name = "tabDipendenti";
+            tabDipendenti.Size = new Size(912, 592);
+            tabDipendenti.TabIndex = 0;
+            tabDipendenti.Text = "Dipendenti";
+            // 
+            // tabRuoli
+            // 
+            tabRuoli.Location = new Point(184, 4);
+            tabRuoli.Name = "tabRuoli";
+            tabRuoli.Size = new Size(312, 292);
+            tabRuoli.TabIndex = 1;
+            tabRuoli.Text = "Ruoli";
+            // 
+            // tabReparti
+            // 
+            tabReparti.Location = new Point(184, 4);
+            tabReparti.Name = "tabReparti";
+            tabReparti.Size = new Size(312, 292);
+            tabReparti.TabIndex = 2;
+            tabReparti.Text = "Reparti";
+            // 
+            // tabTurni
+            // 
+            tabTurni.Location = new Point(184, 4);
+            tabTurni.Name = "tabTurni";
+            tabTurni.Size = new Size(312, 292);
+            tabTurni.TabIndex = 3;
+            tabTurni.Text = "Turni";
+            // 
+            // tabPian
+            // 
+            tabPian.Location = new Point(184, 4);
+            tabPian.Name = "tabPian";
+            tabPian.Size = new Size(312, 292);
+            tabPian.TabIndex = 4;
+            tabPian.Text = "Pianificazioni";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1100, 600);
+            Controls.Add(tabControl);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "Form1";
+            Text = "Gestione aziendale";
+            tabControl.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         private void BuildDipendentiTab()

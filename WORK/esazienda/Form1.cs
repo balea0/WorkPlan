@@ -14,9 +14,15 @@ namespace esazienda
         public Form1()
         {
             InitializeComponent();
+
+            BuildDipendentiTab();
+            BuildRuoliTab();
+            BuildRepartiTab();
+            BuildTurniTab();
+            BuildPianificazioniTab();
+
             connectionString = "Server=192.168.103.51;Port=3306;Uid=4IB;Pwd=4ibroot;DataBase=25_26_4IB_GRUPPO_B";
 
-           
             this.Load += Form1_Load;
         }
 

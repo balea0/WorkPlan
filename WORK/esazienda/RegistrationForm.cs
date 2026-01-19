@@ -31,6 +31,7 @@ namespace esazienda
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistrationForm));
             usernameBox = new Guna2TextBox();
             passwordBox = new Guna2TextBox();
             registerButton = new Guna2Button();
@@ -85,6 +86,7 @@ namespace esazienda
             Controls.Add(passwordBox);
             Controls.Add(registerButton);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "RegistrationForm";
             StartPosition = FormStartPosition.CenterParent;
