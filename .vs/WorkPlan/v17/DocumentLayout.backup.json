@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\",
+  "WorkspaceRootPath": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|c:\\users\\balea.22059\\source\\repos\\workplan\\workplan1\\workplan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|c:\\users\\balea.22059\\documents\\github\\workplan\\provazienda\\workplan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\workplan\\turni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\workplan\\turni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\turni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\workplan\\reparti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\workplan\\reparti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\reparti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\workplan\\ruoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\workplan\\ruoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\ruoli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\workplan\\dipendenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\workplan\\dipendenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\dipendenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\workplan\\pianificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\workplan\\pianificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\pianificazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\workplan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\workplan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4040F715-5DBD-4DDA-8A54-A06649C04AD3}|WorkPlan\\WorkPlan.csproj|solutionrelative:workplan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -44,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Form1.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Form1.cs",
-              "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Form1.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Form1.cs",
               "RelativeToolTip": "WorkPlan\\Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T11:38:12.224Z",
               "IsPinned": true,
@@ -58,9 +58,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Pianificazione.cs",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Pianificazione.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Pianificazione.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Pianificazione.cs",
-              "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Pianificazione.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Pianificazione.cs",
               "RelativeToolTip": "WorkPlan\\Pianificazione.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,9 +70,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Dipendenti.cs",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Dipendenti.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Dipendenti.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Dipendenti.cs",
-              "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Dipendenti.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Dipendenti.cs",
               "RelativeToolTip": "WorkPlan\\Dipendenti.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,9 +82,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Ruoli.cs",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Ruoli.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Ruoli.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Ruoli.cs",
-              "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Ruoli.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Ruoli.cs",
               "RelativeToolTip": "WorkPlan\\Ruoli.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,9 +94,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Reparti.cs",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Reparti.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Reparti.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Reparti.cs",
-              "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Reparti.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Reparti.cs",
               "RelativeToolTip": "WorkPlan\\Reparti.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,9 +106,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Turni.cs",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Turni.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Turni.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Turni.cs",
-              "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Turni.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Turni.cs",
               "RelativeToolTip": "WorkPlan\\Turni.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,10 +118,10 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WorkPlan\\Form1.cs",
               "RelativeDocumentMoniker": "WorkPlan\\Form1.cs",
               "ToolTip": "C:\\Users\\balea.22059\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "WorkPlan\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\WorkPlan\\workplan1\\WorkPlan\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T11:38:10.142Z"
             }

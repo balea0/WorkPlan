@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|solutionrelative:registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|c:\\users\\balea.22059\\documents\\github\\workplan\\provazienda\\workplan\\esazienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|c:\\users\\balea.22059\\documents\\github\\workplan\\provazienda\\workplan\\esazienda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0819EF8B-FEB2-408D-A25D-587698B2E192}|esazienda.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:26:20.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationForm.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\RegistrationForm.cs [Progettazione]",
+              "RelativeToolTip": "RegistrationForm.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:13:40.315Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\LoginForm.cs [Progettazione]*",
+              "RelativeToolTip": "LoginForm.cs [Progettazione]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:13:39.011Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\balea.22059\\Documents\\GitHub\\WorkPlan\\provazienda\\WORKPLAN\\esazienda\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:13:38.263Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
